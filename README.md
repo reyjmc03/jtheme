@@ -11,3 +11,4 @@ A customized drupal 7 web template theme for jomarrey.com website. It is based f
 | :---: | :---: | :---: |
 |  22 March 2016  | 02:44 | first official repository commit.  |
 |                 | 02:56 | adding description header and content in README.md  |
+|                 | 03:20 | adding php code for render page for block regions in templates/page.tpl.php  |
