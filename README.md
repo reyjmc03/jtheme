@@ -6,7 +6,7 @@ Email: reyjmc03@gmail.com
 
 ###### CHANGE LOGS
 | Date Commit  | Time Commit | Project Issues |
-| ------------- | ------------- | ------------- |
+| :---: | :---: | :---: |
 |  22 March 2016  | 02:33 | The quick brown fox jumps over the lazy dog.  |
 |                 | 02:34 | The quick brown fox jumps over the lazy dog.  |
 |                 | 02:35 | The quick brown fox jumps over the lazy dog.  |
