@@ -4,9 +4,4 @@ Authored by: Jose Mari Caballa Rey<br/>
 Email: reyjmc03@gmail.com
 
 
- * POGI
- * POGI
- * POGI
- * POGI
- * POGI
- * POGI
+###### CHANGE LOGS
