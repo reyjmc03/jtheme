@@ -147,7 +147,7 @@
                   <div class="col-md-12">
                     <div class="vcard_block message">
                       <blockquote>
-                        {{ page.welcome_intro }}
+                        <?php if($page['welcome_intro']): print render($page['welcome_intro']); endif; ?>
                         <p class="cite">
                           <a href="#">
                             <img width="106" height="55" src="<?php print base_path() . drupal_get_path('theme', 'jtheme') . '/img/SIG.png'; ?>" alt="">
@@ -248,7 +248,7 @@
              <!-- ************************* Start Profile Section ************************* -->
               <section id="profile">
                 <div class="inner_section profile_section">
-                  {{ page.profile_section }}
+                  <?php if($page['profile_section']): print render($page['profile_section']); endif; ?>
                 </div>
               </section>
               <!-- ************************** End Profile Section ************************* -->
@@ -257,7 +257,7 @@
               <!-- ************************* Start Resume Section ************************* -->
               <section id="resume">
                 <div class="inner_section resume_section">
-                  {{ page.resume_section }}
+                  <?php if($page['resume_section']): print render($page['resume_section']); endif; ?>
                 </div>
               </section>
               <!-- **************************** End Resume Section ************************* -->
@@ -268,7 +268,7 @@
                   <div class="row">
                   <div class="col-md-12">
                   <div class="portfolio vcard_block">
-                    {{ page.portfolio_section }}
+                    <?php if($page['portfolio_section']): print render($page['portfolio_section']); endif; ?>
                   </div>
                   </div>
                   </div>
@@ -287,7 +287,7 @@
                   <div class="row">
                   <div class="col-md-12">
                   <div class="contact vcard_block">
-                    {{ page.contact_section }}
+                    <?php if($page['contact_section']): print render($page['contact_section']); endif; ?>
 
                     <div class="vcard_block contact_table_block">
                     <table>
@@ -314,7 +314,7 @@
                     </table>
                     </div>
 
-                    {{ page.contact_section_2 }}
+                    <?php if($page['contact_section_2']): print render($page['contact_section_2']); endif; ?>
 
                      <!-- <div class="contact_form">
                       <form method="post" class="" action="http://hamzh.info/demo/html/riche/your_action_page.php">
