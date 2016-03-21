@@ -1,0 +1,38 @@
+; ###########################################################
+; # Theme Information
+; ###########################################################
+name = Jose Mari Rey Theme
+description = My customized drupal 7 personalized website theme.
+package = Core
+version = VERSION
+core = 7.x
+
+; ###########################################################
+; # Stylesheets
+; ###########################################################
+stylesheets[all][] = style.css
+stylesheets[all][] = css/bootstrap.css
+stylesheets[all][] = css/shortcodes.css
+stylesheets[all][] = css/font-awesome.min.css
+stylesheets[all][] = css/skins/blue.css
+stylesheets[all][] = css/full-slider.css
+
+; ###########################################################
+; # Regions
+; ###########################################################
+regions[header]             = Header
+regions[welcome_intro]      = Welcome Introduction Block
+regions[profile_section]    = Profile Section Block
+regions[resume_section]     = Resume Section Block
+regions[portfolio_section]  = Portfolio Section Block
+regions[contact_section]    = Contact Section Block
+regions[contact_section_2]  = Contact Section 2 Block
+
+; ###########################################################
+; # Settings
+; ###########################################################
+settings[shortcut_module_link] = 0
+
+
+
+
