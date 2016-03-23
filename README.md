@@ -22,3 +22,4 @@ A customized drupal 7 web template theme for jomarrey.com website. It is based f
 |                 | 23:44 | add more personal info of the author in README.md |
 |                 | 23:48 | add author's wesite info in README.md |
 |                 | 23:52 | minor fixing in README.md for adding <br/> tag before the website info. |
+| 24 March 2016   | 02:00 | adding image slider in templates/page.tpl.php and adding 3 images in img folder. |
