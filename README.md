@@ -5,8 +5,8 @@ Facebook   : https://www.facebook.com/reyjm03<br/>
 Google Plus: https://plus.google.com/u/0/108303740264714622321<br/>
 Linkedin   : https://www.linkedin.com/in/jose-mari-rey-70ab7280?trk=nav_responsive_tab_profile_pic<br/>
 Github     : https://github.com/reyjmc03<br/>
-Email      : reyjmc03@gmail.com
-Website    : https://www,jomarrey.com
+Email      : reyjmc03@gmail.com<br/>
+Website    : https://www.jomarrey.com
 
 ###### DESCRIPTION
 A customized drupal 7 web template theme for jomarrey.com website. It is based form riche template and modified the custom design.
@@ -21,3 +21,4 @@ A customized drupal 7 web template theme for jomarrey.com website. It is based f
 | 23 March 2016   | 23:37 | adding new html file for maps in contact us page(templates/mymap.html) |
 |                 | 23:44 | add more personal info of the author in README.md |
 |                 | 23:48 | add author's wesite info in README.md |
+|                 | 23:52 | minor fixing in README.md for adding <br/> tag before the website info. |
