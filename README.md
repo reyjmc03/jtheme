@@ -13,3 +13,4 @@ A customized drupal 7 web template theme for jomarrey.com website. It is based f
 |                 | 02:56 | adding description header and content in README.md  |
 |                 | 03:20 | adding php code for render page for block regions in templates/page.tpl.php  |
 |                 | 03:26 | fixing the table text alignment for CHANGE LOGS in README.md |
+| 23 March 2016   | 23:37 | adding new html file for maps in contact us page(templates/mymap.html) |
