@@ -32,14 +32,25 @@
 
                   <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
                     <div class="carousel-inner" role="listbox">
-                      <div class="item">
+                      <?php // prof image slider 1 ?>
+                      <div class="item active">
                         <img class="first-slide" src="<?php print base_path() . drupal_get_path('theme', 'jtheme') . '/img/picc-1.jpg'; ?>" alt="First slide">
                       </div>
-                      <div class="item active">
+                      <?php // prof image slider 2 ?>
+                      <div class="item">
                         <img class="second-slide" src="<?php print base_path() . drupal_get_path('theme', 'jtheme') . '/img/picc-2.jpg'; ?>" alt="Second slide">
                       </div>
+                      <?php // prof image slider 3 ?>
                       <div class="item">
                         <img class="third-slide" src="<?php print base_path() . drupal_get_path('theme', 'jtheme') . '/img/picc-3.jpg'; ?>" alt="Third slide">
+                      </div>
+                      <?php // prof image slider 4 ?>
+                      <div class="item">
+                        <img class="third-slide" src="<?php print base_path() . drupal_get_path('theme', 'jtheme') . '/img/picc-3.jpg'; ?>" alt="Fourth slide">
+                      </div>
+                      <?php // prof image slider 5 ?>
+                      <div class="item">
+                        <img class="third-slide" src="<?php print base_path() . drupal_get_path('theme', 'jtheme') . '/img/picc-3.jpg'; ?>" alt="Fifth slide">
                       </div>
                     </div>
                     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
