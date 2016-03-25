@@ -73,10 +73,96 @@ function jtheme_form_system_theme_settings_alter(&$form, &$form_state) {
     '#default_value' => theme_get_setting('pf_language'), 
   ); # language
 
-  $form['jtheme']['person_info']['pf_prof_pic'] = array(
+  $form['jtheme']['person_info']['prof_pic'] = array(
+    '#type' => 'fieldset',
+    '#title' => t('<b style="color: red;">Profile Pictures</b>'),
+    '#collapsible' => TRUE, // BUTTON
+    '#collapsed' => TRUE, // FORM
+  ); # profile picture title header form
+
+  $form['jtheme']['person_info']['prof_pic']['pf_prof_pic_1'] = array(
    '#type' => 'managed_file',
-   '#title' => t('Profile Picture'),
-  ); # profile picture
+   '#title' => t('Profile Picture Slide 1'),
+   '#default_value' => theme_get_setting('pf_prof_pic_1'),
+   '#description' => t('.jpg or .jpeg are allowed file extension only.'),
+   '#upload_location' => 'public://theme/',
+   '#upload_validators' => array(
+      'file_validate_extentions' => array('jpg jpeg'),
+    ),
+  ); # profile picture 1
+
+  $form['jtheme']['person_info']['prof_pic']['pf_prof_pic_2'] = array(
+   '#type' => 'managed_file',
+   '#title' => t('Profile Picture Slide 2'),
+   '#default_value' => theme_get_setting('pf_prof_pic_2'),
+   '#description' => t('.jpg or .jpeg are allowed file extension only.'),
+   '#upload_location' => 'public://theme/',
+   '#upload_validators' => array(
+      'file_validate_extentions' => array('jpg jpeg'),
+    ),
+  ); # profile picture 2
+
+  $form['jtheme']['person_info']['prof_pic']['pf_prof_pic_3'] = array(
+   '#type' => 'managed_file',
+   '#title' => t('Profile Picture Slide 3'),
+   '#default_value' => theme_get_setting('pf_prof_pic_3'),
+   '#description' => t('.jpg or .jpeg are allowed file extension only.'),
+   '#upload_location' => 'public://theme/',
+   '#upload_validators' => array(
+      'file_validate_extentions' => array('jpg jpeg'),
+    ),
+  ); # profile picture 3
+
+  $form['jtheme']['person_info']['prof_pic']['pf_prof_pic_4'] = array(
+   '#type' => 'managed_file',
+   '#title' => t('Profile Picture Slide 4'),
+   '#default_value' => theme_get_setting('pf_prof_pic_4'),
+   '#description' => t('.jpg or .jpeg are allowed file extension only.'),
+   '#upload_location' => 'public://theme/',
+   '#upload_validators' => array(
+      'file_validate_extentions' => array('jpg jpeg'),
+    ),
+  ); # profile picture 4
+
+  $form['jtheme']['person_info']['prof_pic']['pf_prof_pic_5'] = array(
+   '#type' => 'managed_file',
+   '#title' => t('Profile Picture Slide 5'),
+   '#default_value' => theme_get_setting('pf_prof_pic_5'),
+   '#description' => t('.jpg or .jpeg are allowed file extension only.'),
+   '#upload_location' => 'public://theme/',
+   '#upload_validators' => array(
+      'file_validate_extentions' => array('jpg jpeg'),
+    ),
+  ); # profile picture 5
+
+  $form['jtheme']['person_info']['banner_pic'] = array(
+    '#type' => 'fieldset',
+    '#title' => t('<b style="color: red;">Banner Image</b>'),
+    '#collapsible' => TRUE, // BUTTON
+    '#collapsed' => TRUE, // FORM
+  ); # banner image title header form
+
+  $form['jtheme']['person_info']['banner_pic']['banner_img'] = array(
+   '#type' => 'managed_file',
+   '#title' => t('Upload Banner Image'),
+   '#default_value' => theme_get_setting('banner_img'),
+   '#description' => t('.jpg or .jpeg are allowed file extension only.'),
+   '#upload_location' => 'public://theme/',
+   '#upload_validators' => array(
+      'file_validate_extentions' => array('jpg jpeg'),
+    ),
+  ); # upload banner image
+
+  $form['jtheme']['person_info']['upload_resume'] = array(
+    '#type' => 'managed_file',
+    '#title' => t('Upload Resume'),
+    '#default_value' => theme_get_setting('upload_resume'),
+    '#description' => t('.pdf are allowed use to upload your resume.'),
+    '#upload_location' => 'public://theme/',
+    '#upload_validators' => array(
+      'file_validate_extentions' => array('pdf'),
+    ),
+  ); # upload resume
   ##############################
   #   END PERSONAL INFORMATION # 
   ##############################
