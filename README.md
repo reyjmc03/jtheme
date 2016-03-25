@@ -25,7 +25,7 @@ A customized drupal 7 web template theme for jomarrey.com website. It is based f
 | 24 March 2016   | 02:00 | adding image slider in templates/page.tpl.php and adding 3 images in img folder. |
 | 25 March 2016   | 19:45 | deleting logo.png and change into favicon.ico |
 |                 |       | adding jtheme_preprocess_page function in template.php |
-|                 |       | adding profile picture slider code in theme-setttings.php for settings. |
+|                 |       | adding profile picture slider code in theme-settings.php for settings. |
 |                 |       | minor changes in page.tpl.php in profile pic slider part. |
 |                 |       | modified the picc-1.jpg and picc-2.jpg for dumy testing. |
 
