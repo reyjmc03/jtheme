@@ -108,6 +108,64 @@ function jtheme_preprocess_block(&$variables) {
 }
 
 /**
+ * Override or insert variables into the page template.
+ *
+ * @param $variables
+ *   An array of variables to pass to the theme template.
+ * @param $hook
+ *   The name of the template being rendered ("page" in this case.)
+ */
+function jtheme_preprocess_page(&$variables, $hook) {
+  # $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+  # $ begin for profile picture image slide 1 $
+  # $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+  $variables['upload_slide1_styles'] = 'src=" ';
+  $id_slide1 = theme_get_setting('pf_prof_pic_1');
+  if($id_slide1):
+  else:
+  endif;
+  $variables['upload_slide1_styles'] .= '" ';
+
+  
+
+  # $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+  # $ begin for profile picture image slide 2 $
+  # $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+  $variables['upload_slide2_styles'] = 'src=" ';
+  $id_slide2 = theme_get_setting('pf_prof_pic_2');
+  $variables['upload_slide2_styles'] .= '" ';
+
+  # $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+  # $ begin for profile picture image slide 3 $
+  # $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+  $variables['upload_slide3_styles'] = 'src=" ';
+  $id_slide3 = theme_get_setting('pf_prof_pic_3');
+  $variables['upload_slide3_styles'] .= '" ';
+
+  # $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+  # $ begin for profile picture image slide 4 $
+  # $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+  $variables['upload_slide4_styles'] = 'src=" ';
+  $id_slide3 = theme_get_setting('pf_prof_pic_4');
+  $variables['upload_slide4_styles'] .= '" ';
+
+  # $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+  # $ begin for profile picture image slide 5 $
+  # $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+  $variables['upload_slide5_styles'] = 'src=" ';
+  $id_slide3 = theme_get_setting('pf_prof_pic_5');
+  $variables['upload_slide5_styles'] .= '" ';
+
+  # $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+  # $ begin for banner image upload           $
+  # $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+  $variablesp['upload_banner_img_styles'] = 'src=" ';
+  $id_slide3 = theme_get_setting('banner_img');
+  $variables['upload_banner_img_styles'] .= '" ';
+}
+
+
+/**
  * Implements theme_menu_tree().
  */
 function jtheme_menu_tree($variables) {
